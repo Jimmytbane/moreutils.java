@@ -17,7 +17,7 @@ import java.util.Scanner;
 class interject {
 	public static void main (String[] args) {
 		System.out.println("---INTERJECT---");
-		System.out.printf("What is the number one server OS in the world?%nInput your answer --> ");
+		System.out.printf("What is the number one server OS in the world?%nInput your answer  --> ");
 		Scanner scan = new Scanner(System.in);
 		String my_result = scan.nextLine();
 		scan.close();
