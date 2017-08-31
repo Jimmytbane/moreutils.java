@@ -12,17 +12,15 @@
 	along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-import java.util.Scanner;
+class ntkernelbestkerrnel {
+System.out.println("---NTKERNELBESTKERNEL---");
+System.out.println("What is the best kernel of all time?");
+input1 = input("Input your reponse -->  ");
+input1 = input1.lower();
 
-class downcasethis {
-    public static void main (String[] args) {
-        System.out.println("---DOWNCASETHIS---");
-        System.out.print("Enter the string you would like to downcase  --> ");
-    	Scanner scan = new Scanner(System.in);
-		// String s = scan.next();
-		String input = scan.nextLine();
-		scan.close();
-		input = input.toLowerCase();
-		System.out.printf("Your downcased string  --> %s%n", input);
-    }
+	if (input1.equals("nt") || input1.equals("nt kernel")) {
+        	System.out.println("NT KERNEL BEST KERNEL");
+	} else {
+		System.out.println("What are you talking about? NT KERNEL BEST KERNEL");
+	}
 }
