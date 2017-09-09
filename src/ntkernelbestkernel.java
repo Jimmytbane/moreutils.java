@@ -12,15 +12,24 @@
 	along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-class ntkernelbestkerrnel {
-System.out.println("---NTKERNELBESTKERNEL---");
-System.out.println("What is the best kernel of all time?");
-input1 = input("Input your reponse -->  ");
-input1 = input1.lower();
+import java.util.Scanner;
 
-	if (input1.equals("nt") || input1.equals("nt kernel")) {
-        	System.out.println("NT KERNEL BEST KERNEL");
-	} else {
-		System.out.println("What are you talking about? NT KERNEL BEST KERNEL");
+class ntkernelbestkernel {
+	public static void main(String[] args) {
+		System.out.println("---NTKERNELBESTKERNEL---");
+		System.out.println("What is the best kernel of all time?");
+		System.out.printf("Input your response -->  ");
+		Scanner scan = new Scanner(System.in);
+        	// String s = scan.next();
+        	String input = scan.nextLine();
+        	scan.close();
+		String input1 = input;
+		input1 = input1.toLowerCase();
+
+			if (input1.equals("nt") || input1.equals("nt kernel")) {
+        			System.out.println("NT KERNEL BEST KERNEL");
+			} else {
+				System.out.println("What are you talking about? NT KERNEL BEST KERNEL");
+			}
 	}
 }
